@@ -25,7 +25,27 @@
   <img src="Images/Photo_Phonzo_Logo.png" alt="Logo">
 </div>
 <!--- Photo Slider --->
-<div>
+<div class="slider">
+  <img class="slides" src="Images/Nat_rust.jpg">
+  <img class="slides" src="Images/Nat_ty.jpg">
+  <img class="slides" src="Images/Nat_tyyu.jpg">
 </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 6000);
+}
+</script>
+
 </body>
 </html>
