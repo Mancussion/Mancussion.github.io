@@ -20,9 +20,12 @@
   src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v9/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-	/*  font-family: 'Permanent Marker', cursive;
-        font-family: 'Satisfy', cursive;
-        font-family: 'Markazi Text', serif; */
+/*  FONTS USED
+	font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Markazi Text', serif; */
+
+/* Background */		
 body{      
   background-image: url(Images/Background_Image.jpg);
   background-color: silver; 
@@ -31,6 +34,7 @@ body{
   background-attachment: fixed;
   background-size: contain;
   }
+/* Navigation */
 .navbar {
   text-align:center;
   font-family:'Permanent Marker', cursive;
@@ -53,13 +57,18 @@ body{
 .navbar a:hover {
   background-color: black;
 }
+/* Contact */
 .contact {
   position: fixed;
   z-index: 1;
+  
 }
 .phone, .email {
   position: relative;
   display: block;
+  border: 1px solid black;
+  border-width: 1px;
+  background-color: white;
 }
 
 .phone-info, .email-info {
@@ -77,26 +86,26 @@ body{
 .phone:hover .phone-info, .email:hover .email-info {
   display: block;
 }
-
+/* Index */
 .logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  max-width:100%;
+  height:auto;
   opacity: 0.85;
-  object-fit: scale-down;
+  text-align:center;
 }
 
 .slider {
-	max-width:400px;
+	max-width:300px;
 	margin-left:auto;
 	margin-right:auto;
 }	
 
 .slides {
-	width:100%
+	width:100%;
 	
-}	
+}
+/* Gallery */	
 div.gallery {
   display: inline-block;
   margin-left: 20%;
@@ -114,12 +123,13 @@ div.gallery img {
   width: 100%;
   height: auto;
 }
+/* About */
 .content {
   text-align: center;
   background-color: black;
   color:white;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   opacity: 0.85;
 }
 .content h1 {
