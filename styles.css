@@ -33,9 +33,8 @@
     font-family: 'Markazi Text', serif; */
 
 /* Background */		
-body{      
-  background-image: url(Images/Background_Image.jpg); 
-  background-attachment: fixed;
+body{   
+  background: grey url(Images/Background_Image.jpg) no-repeat fixed center;
   background-size: cover;
   }
 /* Navigation */
