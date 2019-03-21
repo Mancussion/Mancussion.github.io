@@ -51,12 +51,13 @@ body{
   text-decoration: none;
   color: white;
   padding: 10px;
+  backgroung-color: grey;
 }
 .navbar a.active {
   background-color: navy;
 }
 .navbar a.inactive {
-  background-color: grey; 
+  background-color: grey;
 }
 .navbar a:hover {
   background-color: black;
