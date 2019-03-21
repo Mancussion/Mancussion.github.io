@@ -118,8 +118,8 @@ div.gallery img {
   text-align: center;
   background-color: black;
   color:white;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
   opacity: 0.85;
 }
 .content h1 {
@@ -131,4 +131,8 @@ div.gallery img {
 .content p {
  font-family:'Markazi Text', cursive;
  font-size: 20px;
+}
+#about_me {
+	font-family: 'Satisfy', cursive;
+	
 }
