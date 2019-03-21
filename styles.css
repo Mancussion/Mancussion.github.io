@@ -37,9 +37,9 @@ body{
   background-image: url(Images/Background_Image.jpg);
   background-color: silver; 
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   }
 /* Navigation */
 .navbar {
