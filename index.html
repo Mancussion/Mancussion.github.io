@@ -14,11 +14,17 @@
 </head>
 <body>
 <!--- Navigation --->
-<div class="navbar">
-  <a class="active" href="index.html">Home</a>
-  <a class="inactive" href="gallery.html">Gallery</a>
-  <a class="inactive" href="about.html">About</a>   
-</div>
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li>Gallery
+    <ul> 
+      <li><a href="gallery.html">Nature</a></li>
+      <li><a href="#">Music</a></li>
+      <li><a href="#">Weddings</a></li>
+	</ul>  
+  </li> 
+</ul>
 <!--- Contact --->
 <div class="contact">
   <div class="phone"><img src="Images/Phone-pixel.png" alt="phone">
@@ -52,7 +58,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 6000);
+  setTimeout(carousel, 4000);
 }
 </script>
 
