@@ -49,18 +49,18 @@ body {
   position:relative;
   z-index: 2;
 }
-
+#nav-link {
+	padding: 15px;
+}
 .navbar li{
   color: white;
   position: relative;
   display: inline;
-  padding: 15px;
 }	
 .navbar a {
   color: white;
   display: inline-block;
   text-decoration: none;
-  padding: 15px;
 }
 .navbar ul {
   color: white;
