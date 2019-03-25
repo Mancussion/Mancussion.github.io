@@ -167,7 +167,8 @@ body {
 
 @media screen and (max-width: 500px) {
   .row {
-    width: 50%;
+    max-width: 50%;
+	margin: auto;
   }
 }
 /* About */
