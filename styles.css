@@ -187,6 +187,10 @@ body {
   body {
 	background-color: grey;  
   }
+  .row {
+	margin-left: auto;
+	margin-right: auto;
+  }
   .row img  {
     width: 50%;
 	margin: auto;
