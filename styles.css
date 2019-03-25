@@ -158,16 +158,12 @@ body {
 
 .row img {
   height: auto;
-  width: 25%;
-}
-
-.gallery-desc {
-  text-align: center;
+  max-width: 25%;
 }
 
 @media screen and (max-width: 500px) {
   .row {
-    max-width: 50%;
+    width: 50%;
 	margin: auto;
   }
 }
