@@ -1,4 +1,4 @@
-	
+ 	
 	@font-face {
   font-family: 'Markazi Text';
   font-style: normal;
@@ -143,27 +143,25 @@ body {
 .slides {
 	width: 100%;
 }
-/* Gallery */	
-div.gallery {
-  display: inline-block;
-  margin-left: 21.5%;
-  margin-right: auto;
+/* Gallery */
+.row {
+  display: block;
   margin-top: 20px;
-  border: 1px solid #ccc;
-  width: 180px;
+  margin-left: 20%;
+  padding: 5px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+.row img:hover {
+  border: 1px solid black;
 }
 
-div.gallery img {
-  width: 100%;
+.row img {
   height: auto;
+  width: 25%;
 }
 
 .gallery-desc {
-	text-align: center;
+  text-align: center;
 }
 /* About */
 .content {
@@ -185,6 +183,6 @@ div.gallery img {
  font-size: 20px;
 }
 #about_me {
-	font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', cursive;
 	
 }
