@@ -163,6 +163,12 @@ body {
 .gallery-desc {
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .row {
+    width: 100%;
+  }
+}
 /* About */
 .content {
   text-align: center;
