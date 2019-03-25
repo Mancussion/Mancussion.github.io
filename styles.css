@@ -158,11 +158,11 @@ body {
 
 .row img {
   height: auto;
-  max-width: 25%;
+  width: 25%;
 }
 
 @media screen and (max-width: 500px) {
-  .row {
+  .row img {
     width: 50%;
 	margin: auto;
   }
