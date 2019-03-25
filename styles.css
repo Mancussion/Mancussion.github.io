@@ -146,10 +146,9 @@ body {
 }
 /* Gallery */
 .row {
-  display: block;
+  display: inline-block;
   margin-top: 20px;
   margin-left: 20%;
-  padding: 5px;
 }
 
 .row img:hover {
@@ -159,14 +158,9 @@ body {
 .row img {
   height: auto;
   width: 25%;
+  padding: 5px;
 }
 
-@media screen and (max-width: 500px) {
-  .row img {
-    width: 50%;
-	margin: auto;
-  }
-}
 /* About */
 .content {
   text-align: center;
@@ -188,5 +182,13 @@ body {
 }
 #about_me {
   font-family: 'Satisfy', cursive;
-	
+}
+@media screen and (max-width: 500px) {
+  body {
+	background-color: grey;  
+  }
+  .row img  {
+    width: 50%;
+	margin: auto;
+  }
 }
