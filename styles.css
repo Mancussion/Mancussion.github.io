@@ -185,6 +185,6 @@ body {
 }
 @media only screen and (max-width: 600px) {
   body {
-	background-image: none;  
+	background: navy url(Images/mobile-bg.png) repeat scroll left top;  
   }
 }
