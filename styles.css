@@ -155,6 +155,9 @@ body {
   margin-top: 20px;
   margin-left: 23%;
 }
+.row a {
+	text-decoration: none;
+}
 
 .row img:hover {
   border: 1px solid #393f47;
