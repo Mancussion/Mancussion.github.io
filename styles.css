@@ -34,7 +34,7 @@
 
 /* Background */		
 body {   
-  background: grey url(Images/Background_Image.jpg) no-repeat fixed center;
+  background: #393f47 url(Images/Background_Image.jpg) no-repeat fixed center;
   background-size: cover;
 }
 /* Navigation */
@@ -45,7 +45,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color:#000000;
   position:relative;
   z-index: 2;
 }
@@ -53,21 +53,21 @@ body {
 	padding: 15px;
 }
 .navbar li{
-  color: white;
+  color: #fffefa;
   position: relative;
   display: inline;
 }	
 .navbar a {
-  color: white;
+  color: #fffefa;
   display: inline-block;
   text-decoration: none;
 }
 .navbar ul {
-  color: white;
+  color: #fffefa;
   left: -9999px;
   padding: 0;
   margin: 0;
-  background-color: black;
+  background-color:#000000;
   font-family: inherit;
   position: absolute;
   text-align: left;
@@ -79,7 +79,7 @@ body {
   left: 0;
 }
 .navbar li:hover, .navbar a:hover {
-  background-color: navy;
+  background-color: #393f47;
 }
 .navbar ul a{
   display:block;
@@ -93,17 +93,17 @@ body {
 .phone, .email {
   position: relative;
   display: block;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-width: 1px;
-  background-color: white;
+  background-color: #fffefa;
 }
 
 .phone-info, .email-info {
   display: none;
   position: absolute;
   left: 100%;
-  background-color: black;
-  color:white;
+  background-color: #393f47;
+  color:#fffefa;
   font-family: 'Markazi Text', serif;
   font-size: 20px;
   min-width: 160px;
@@ -127,8 +127,8 @@ body {
   z-index: 1;
 }
 .desc { /* also in gallery*/
-	color:white;
-	background-color:black;
+	color:#fffefa;
+	background-color:#000000;
 	text-align: center;
 	opacity:0.85;
 	margin-left:20%;
@@ -152,7 +152,7 @@ body {
 }
 
 .row img:hover {
-  border: 1px solid black;
+  border: 1px solid #393f47;
 }
 
 .row img {
@@ -164,8 +164,8 @@ body {
 /* About */
 .content {
   text-align: center;
-  background-color: black;
-  color:white;
+  background-color: #000000;
+  color:#fffefa;
   margin-left: 20%;
   margin-right: 20%;
   opacity: 0.85;
@@ -185,6 +185,6 @@ body {
 }
 @media only screen and (max-width: 600px) {
   body {
-	background: navy url(Images/mobile-bg.png) repeat scroll left top;  
+	background: #393f47 url(Images/mobile-bg.png) repeat scroll left top;  
   }
 }
