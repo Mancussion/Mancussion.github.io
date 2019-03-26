@@ -46,6 +46,7 @@ body {
   margin: 0;
   padding: 0;
   background-color:#000000;
+  background-image:url(Images/subtle-grunge.png);
   position:relative;
   z-index: 2;
 }
@@ -77,6 +78,8 @@ body {
 }
 .navbar li:hover ul{
   left: 0;
+  background-color:#000000;
+  background-image:url(Images/subtle-grunge.png);
 }
 .navbar li:hover, .navbar a:hover {
   background-color: #393f47;
@@ -102,7 +105,8 @@ body {
   display: none;
   position: absolute;
   left: 100%;
-  background-color: #393f47;
+  background-color:#000000;
+  background-image:url(Images/subtle-grunge.png);
   color:#fffefa;
   font-family: 'Markazi Text', serif;
   font-size: 20px;
@@ -129,6 +133,7 @@ body {
 .desc { /* also in gallery*/
 	color:#fffefa;
 	background-color:#000000;
+    background-image:url(Images/subtle-grunge.png);
 	text-align: center;
 	opacity:0.85;
 	margin-left:20%;
